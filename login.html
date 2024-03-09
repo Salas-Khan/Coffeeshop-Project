@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a ecommerce project by shahriar khan salas">
+
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ecommerce Project</title>
+</head>
+<body>
+       <!-- navbar starts from here -->
+           <i class="fas fa-bars " id="menu-icon"></i>
+            <nav id="menu" class="hidden">
+                        <ul class="nav-upper flex-space-around">
+                            <li class="nav__list">
+                                <a href="/index.html" 
+                                     class="nav__link">home</a>
+                            </li>
+
+                            <li class="nav__list">
+                                    <a href="register.html"  class="nav__link">register</a>
+                            </li>
+
+                            <li class="nav__list">
+                                    <a href="login.html" 
+                                         class="nav__link">login</a>
+                            </li> 
+                            
+                            <li class="nav__list">
+                                    <a href="contact.html"  class="nav__link">contact</a>
+                            </li>
+                            
+                            <li class="nav__list">
+                                    <a href="/index.html"  class="nav__link">log out</a>
+                            </li>
+                            
+                            <li class="nav__list">
+                                    <a href="profile.html"
+                                          class="nav__link">
+                                        <img 
+                                            src="./images/profile1.jpg"           alt="profile-icon" class="profile__icon">
+                                    </a>
+                            </li>
+                        </ul>
+
+
+                        <!-- <ul class="nav-lower flex-space-around">
+                            <li class="nav__list">
+                                  <a href="/index.html" 
+                                      class="nav__brand nav__link">salas khan</a>
+                            </li> 
+                            
+                            <li class="nav__list">
+                                  <a href="/index.html" 
+                                       class="nav__link">
+                                    <span>
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>cart 2 products - $100
+                                  </a>
+                            </li>
+                        </ul>                   -->
+            </nav>
+<!-- navbar ends from here -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- main section starts here -->
+<main>
+        <!-- register section starts here -->
+            <section class="login">
+                     <h2 class="section-title  text-center">Login Here</h2>
+
+                     <div class="card">
+                              <form action="" class="form">
+                                        
+                                        <div class="form-control  flex-center">
+                                                <label for="email">Email : </label>
+                                                <input type="text" id="email" required autocomplete="email">
+                                        </div>
+                                        
+                                        <div class="form-control  flex-center">
+                                                <label for="password">Password : </label>
+                                                <input type="text" id="password" required autocomplete="password">
+                                        </div>
+                                        
+                                        <div class="form-control  flex-center   form-btn-field">
+                                               <button class="btn  contact-btn">Submit</button>   
+                                        </div>
+
+                              </form>
+                     </div>
+            </section>
+        <!-- register section ends here -->
+</main>
+<!-- main section ends here -->
+
+
+
+
+
+
+
+
+
+
+<!-- footer starts from here -->
+ <footer class="footer flex-space-around">
+             <div class="flex-space-around ">
+                     <label for="subscribe">Subscribe Here : </label>
+                     <input type="email"  id="subscribe"  name="subscribe"   placeholder="Enter Email" class="footer__input">
+                     <button class="btn subscribe__btn">subscribe</button>
+             </div>
+
+             <div>
+                    <p class="footer__desc">devoloved by &copy;shahriar khan salas</p>
+             </div>
+ </footer>
+<!-- footer ends from here -->
+
+<script src="./scripts/index.js"></script>
+</body>
+</html>

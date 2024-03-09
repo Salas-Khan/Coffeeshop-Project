@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a ecommerce project by shahriar khan salas">
+
+    <!-- fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Ecommerce Project</title>
+</head>
+<body>
+       <!-- navbar starts from here -->
+           <i class="fas fa-bars " id="menu-icon"></i>
+            <nav id="menu" class="hidden">
+                        <ul class="nav-upper flex-space-around">
+                            <li class="nav__list">
+                                <a href="/index.html" 
+                                     class="nav__link">home</a>
+                            </li>
+
+                            <li class="nav__list">
+                                    <a href="register.html"  class="nav__link">register</a>
+                            </li>
+
+                            <li class="nav__list">
+                                    <a href="login.html" 
+                                         class="nav__link">login</a>
+                            </li> 
+                            
+                            <li class="nav__list">
+                                    <a href="contact.html"  class="nav__link">contact</a>
+                            </li>
+                            
+                            <li class="nav__list">
+                                    <a href="/index.html"  class="nav__link">log out</a>
+                            </li>
+                            
+                            <li class="nav__list">
+                                    <a href="profile.html"
+                                          class="nav__link">
+                                        <img 
+                                            src="./images/profile1.jpg"           alt="profile-icon" class="profile__icon">
+                                    </a>
+                            </li>
+                        </ul>
+
+
+                        <!-- <ul class="nav-lower flex-space-around">
+                            <li class="nav__list">
+                                  <a href="/index.html" 
+                                      class="nav__brand nav__link">salas khan</a>
+                            </li> 
+                            
+                            <li class="nav__list">
+                                  <a href="/index.html" 
+                                       class="nav__link">
+                                    <span>
+                                            <i class="fa-solid fa-cart-shopping"></i>
+                                    </span>cart 2 products - $100
+                                  </a>
+                            </li>
+                        </ul>                   -->
+            </nav>
+<!-- navbar ends from here -->
+
+
+<main>
+          <section class="contact-section">
+                    <h2 class="section-title   text-center">Contact Us</h2>
+
+                    <div class="contact-container    flex-center">
+                           
+                                <form action="" class="form   card">
+                                                <div class="form-control  flex-center">
+                                                        <label for="name">Name : </label>
+                                                        <input type="text" id="name" required autocomplete="name">
+                                                </div>
+                                                
+                                                <div class="form-control  flex-center">
+                                                        <label for="email">Email : </label>
+                                                        <input type="text" id="email" required autocomplete="email">
+                                                </div>
+
+                                                
+                                                <div class="form-control  flex-center">
+                                                        <label for="message">Message : </label>
+                                                        <textarea name="message" id="message"></textarea>
+                                                </div>   
+
+                                                       
+                                                <div class="form-control  flex-center   form-btn-field">
+                                                        <button class="btn  contact-btn">Submit</button>   
+                                                 </div>
+                                </form>
+
+
+                                <div class="contact-address  flex-space-around">
+                                          <address>
+                                                 <h4>Address :</h4>
+                                                 <p>123 Jamtola Road</p>
+                                                 <p>Pirganj , Rangpur</p>
+                                                 <br>
+
+
+                                                 <span>Call :</span>
+                                                 <a href="tel:=8801835158550">01835158550</a>
+                                          </address>
+
+                                          <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57626.89707140214!2d89.29653091239561!3d25.48232302611975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fcd7504ee1bc49%3A0xf2538fe2a4dfae23!2sShanerhat!5e0!3m2!1sen!2sbd!4v1680685329776!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                        </div>   
+                    </div>
+          </section>
+</main>
+
+
+<!-- footer starts from here -->
+ <footer class="footer flex-space-around">
+             <div class="flex-space-around ">
+                     <label for="subscribe">Subscribe Here : </label>
+                     <input type="email"  id="subscribe"  name="subscribe"   placeholder="Enter Email" class="footer__input">
+                     <button class="btn subscribe__btn">subscribe</button>
+             </div>
+
+             <div>
+                    <p class="footer__desc">devoloved by &copy;shahriar khan salas</p>
+             </div>
+ </footer>
+<!-- footer ends from here -->
+
+<script src="./scripts/index.js"></script>
+</body>
+</html>
